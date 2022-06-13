@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215b561d383145438a19504291775d85, type: 3}
+  m_Name: SkillNode 9
+  m_EditorClassIdentifier: 
+  m_NodeInfo:
+    m_ID: 9
+    m_IsExplore: 0
+    m_Product:
+      m_Cost: 1
+    m_TailNodes:
+    - {fileID: 11400000, guid: a86500ac9851f8645a0f049adab0f71c, type: 2}
+    m_HeadNodes:
+    - {fileID: 11400000, guid: 4f9c90945b386074ab7469dd9b943d8d, type: 2}
