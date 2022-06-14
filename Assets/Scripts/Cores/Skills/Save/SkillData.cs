@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using Cores.Skills.Configs;
 using UnityEngine;
 
-namespace Cores.SkillTrees.Save
+namespace Cores.Skills.Save
 {
     [Serializable]
     public class SkillData

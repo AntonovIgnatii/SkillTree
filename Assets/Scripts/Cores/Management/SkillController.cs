@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Cores.Skills;
 using Cores.Skills.Configs;
 using Cores.Skills.Graph;
-using Cores.SkillTrees;
 using Templates.Products;
 using UnityEngine;
 

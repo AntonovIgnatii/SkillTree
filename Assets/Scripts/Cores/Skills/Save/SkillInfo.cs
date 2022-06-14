@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Cores.SkillTrees.Save
+namespace Cores.Skills.Save
 {
     [Serializable]
     public class SkillInfo

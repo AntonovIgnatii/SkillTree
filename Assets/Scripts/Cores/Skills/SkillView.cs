@@ -3,7 +3,7 @@ using Cores.Skills.Graph;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Cores.SkillTrees
+namespace Cores.Skills
 {
     public class SkillView : MonoBehaviour, IHaveID
     {
