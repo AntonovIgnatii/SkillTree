@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
 
-namespace Cores.SkillTrees.Configs
+namespace Cores.Skills.Configs
 {
     [Serializable]
     public class SkillTreeInfo

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Cores.SkillTrees.Configs
+namespace Cores.Skills.Configs
 {
     [Serializable]
     public class SkillColorInfo

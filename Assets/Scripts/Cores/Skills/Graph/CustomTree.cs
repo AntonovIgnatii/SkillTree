@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Cores.SkillTrees.Configs;
+using Cores.Skills.Configs;
 
-namespace Cores.SkillTrees.Trees
+namespace Cores.Skills.Graph
 {
-    public class CustomTree : IDisposable
+    public class SkillGraph : IDisposable
     {
         private readonly Dictionary<int, SkillNodeInfo> _nodes = new ();
 

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Cores.SkillTrees.Trees;
+using Cores.Skills.Graph;
 using Templates.Products;
 using UnityEngine;
 
-namespace Cores.SkillTrees.Configs
+namespace Cores.Skills.Configs
 {
     [Serializable]
     public class SkillNodeInfo : IHaveID

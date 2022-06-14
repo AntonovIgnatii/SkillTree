@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Cores.Skills.Configs;
+using Cores.Skills.Graph;
 using Cores.SkillTrees;
-using Cores.SkillTrees.Configs;
-using Cores.SkillTrees.Trees;
 using Templates.Products;
 using UnityEngine;
 
@@ -20,7 +20,7 @@ namespace Cores.Management
         private readonly List<int> _baseSkillIds = new ();
         private readonly List<int> _exploredSkillIds = new ();
         
-        private CustomTree _tree;
+        private SkillGraph _tree;
 
         private SkillView _selectedSkillView;
         
@@ -28,7 +28,7 @@ namespace Cores.Management
         {
             m_SkillTreeConfig.Load();
 
-            _tree = new CustomTree();
+            _tree = new SkillGraph();
             
             var skillNodes = m_SkillTreeConfig.Data.SkillNodes;
             

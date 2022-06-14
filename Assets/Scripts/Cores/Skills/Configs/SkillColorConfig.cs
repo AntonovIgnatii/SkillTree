@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Cores.SkillTrees.Configs
+namespace Cores.Skills.Configs
 {
     [CreateAssetMenu(menuName = "Custom/SkillColorConfig", fileName = "New Skill Color")]
     public class SkillColorConfig : ScriptableObject

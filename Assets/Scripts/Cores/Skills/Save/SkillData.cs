@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Cores.SkillTrees.Configs;
+using Cores.Skills.Configs;
 using UnityEngine;
 
 namespace Cores.SkillTrees.Save

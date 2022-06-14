@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Cores.SkillTrees.Configs
+namespace Cores.Skills.Configs
 {
     [CreateAssetMenu(menuName = "Custom/SkillNode", fileName = "New Skill Node")]
     public class SkillNodeConfig : ScriptableObject

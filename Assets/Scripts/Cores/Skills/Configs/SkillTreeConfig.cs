@@ -4,7 +4,7 @@ using Cores.SkillTrees.Save;
 using Templates.Saves;
 using UnityEngine;
 
-namespace Cores.SkillTrees.Configs
+namespace Cores.Skills.Configs
 {
     [CreateAssetMenu(menuName = "Custom/SkillTree", fileName = "New Skill Tree")]
     public class SkillTreeConfig : ScriptableObject

@@ -1,5 +1,5 @@
-﻿using Cores.SkillTrees.Configs;
-using Cores.SkillTrees.Trees;
+﻿using Cores.Skills.Configs;
+using Cores.Skills.Graph;
 using UnityEngine;
 using UnityEngine.UI;
 

@@ -1,5 +1,5 @@
 
-namespace Cores.SkillTrees.Trees
+namespace Cores.Skills.Graph
 {
     public interface IHaveID
     {
