@@ -36,6 +36,16 @@ namespace Cores.Skills.Graph
             }
         }
 
+        public bool IsMayBeForgotten(IHaveID nodeContainer)
+        {
+            return IsExplore(nodeContainer) && IsHeadRuleConfirm(nodeContainer) && IsTailRuleConfirm(nodeContainer);
+        }
+
+        public bool IsMayBeExplore(IHaveID nodeContainer)
+        {
+            return !IsExplore(nodeContainer) && IsTailRuleConfirm(nodeContainer);
+        }
+
         private bool IsExplore(IHaveID nodeContainer)
         {
             if (nodeContainer == null)
@@ -50,17 +60,7 @@ namespace Cores.Skills.Graph
 
             return false;
         }
-
-        public bool IsMayBeForgotten(IHaveID nodeContainer)
-        {
-            return IsExplore(nodeContainer) && IsHeadRuleConfirm(nodeContainer) && IsTailRuleConfirm(nodeContainer);
-        }
-
-        public bool IsMayBeExplore(IHaveID nodeContainer)
-        {
-            return !IsExplore(nodeContainer) && IsTailRuleConfirm(nodeContainer);
-        }
-
+        
         private bool IsHeadRuleConfirm(IHaveID nodeContainer)
         {
             if (nodeContainer == null)
